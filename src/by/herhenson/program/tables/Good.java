@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class Good {
+public class Good implements Table {
     private int id;
     private String name;
     private int amount;

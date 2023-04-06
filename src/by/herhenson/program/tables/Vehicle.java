@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class Vehicle {
+public class Vehicle implements Table {
     private int id;
     private String license_plate;
     private String description;

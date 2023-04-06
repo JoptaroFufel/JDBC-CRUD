@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class SVS {
+public class SVS implements Table {
     private int shipper_id;
     private String shipment_id;
     private int vehicle_id;

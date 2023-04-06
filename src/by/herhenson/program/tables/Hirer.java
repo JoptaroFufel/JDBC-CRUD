@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class Hirer {
+public class Hirer implements Table {
     private int id;
     private String fullname;
     private String passport_data;

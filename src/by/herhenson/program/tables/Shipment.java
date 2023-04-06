@@ -2,7 +2,7 @@ package by.herhenson.program.tables;
 
 import java.util.Date;
 
-public class Shipment {
+public class Shipment implements Table {
     private String number;
     private String contract_id;
     private int departure_point;

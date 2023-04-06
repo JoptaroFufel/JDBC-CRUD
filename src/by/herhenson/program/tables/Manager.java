@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class Manager {
+public class Manager implements Table {
     private int id;
     private int employee_id;
 

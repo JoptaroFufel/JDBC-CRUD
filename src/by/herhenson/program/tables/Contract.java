@@ -2,7 +2,7 @@ package by.herhenson.program.tables;
 
 import java.util.Date;
 
-public class Contract {
+public class Contract implements Table {
     private String number;
     private String status;
     private double total;

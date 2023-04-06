@@ -1,6 +1,6 @@
 package by.herhenson.program.tables;
 
-public class Place {
+public class Place implements Table {
     private int id;
     private String address;
 
