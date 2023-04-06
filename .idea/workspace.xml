@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fae6e5-afe9-4921-a76b-4e8baa1c0358" name="Changes" comment="upload files">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC-CRUD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/dao/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/main/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Hirer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/SVS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Shipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Hirer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Hirer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Table.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O2sLDM7wjPBOXqiAVy5MBDFYSC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,6 +60,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Unic\Практика\JDBC-CRUD\lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.herhenson.program.tables" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Console" type="Application" factoryName="Application">
@@ -79,8 +82,16 @@
       <option name="presentableId" value="Default" />
       <updated>1680769955693</updated>
       <workItem from="1680769957141" duration="5234000" />
-      <workItem from="1680804358052" duration="2006000" />
+      <workItem from="1680804358052" duration="4535000" />
     </task>
+    <task id="LOCAL-00001" summary="upload files">
+      <created>1680807209319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680807209319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,15 +1,15 @@
 package by.herhenson.program.tables;
 
-public class Hirer {
+public class Employee {
     private int id;
     private String fullname;
     private String passport_data;
     private String contact_data;
 
-    public Hirer() {
+    public Employee() {
     }
 
-    public Hirer(int id, String fullname, String passport_data, String contact_data) {
+    public Employee(int id, String fullname, String passport_data, String contact_data) {
         this.id = id;
         this.fullname = fullname;
         this.passport_data = passport_data;
@@ -50,7 +50,7 @@ public class Hirer {
 
     @Override
     public String toString() {
-        return "Hirer{" +
+        return "Employee{" +
                 "id=" + id +
                 ", fullname='" + fullname + '\'' +
                 ", passport_data='" + passport_data + '\'' +
