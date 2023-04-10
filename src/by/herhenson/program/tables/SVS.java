@@ -3,12 +3,12 @@ package by.herhenson.program.tables;
 public class SVS implements Table {
     private int shipper_id;
     private String shipment_id;
-    private int vehicle_id;
+    private String vehicle_id;
 
     public SVS() {
     }
 
-    public SVS(int shipper_id, String shipment_id, int vehicle_id) {
+    public SVS(int shipper_id, String shipment_id, String vehicle_id) {
         this.shipper_id = shipper_id;
         this.shipment_id = shipment_id;
         this.vehicle_id = vehicle_id;
@@ -30,11 +30,11 @@ public class SVS implements Table {
         this.shipment_id = shipment_id;
     }
 
-    public int getVehicle_id() {
+    public String getVehicle_id() {
         return vehicle_id;
     }
 
-    public void setVehicle_id(int vehicle_id) {
+    public void setVehicle_id(String vehicle_id) {
         this.vehicle_id = vehicle_id;
     }
 
@@ -42,7 +42,7 @@ public class SVS implements Table {
     public String toString() {
         return "SVS{" +
                 "shipper_id=" + shipper_id +
-                ", shipment_id='" + shipment_id + '\'' +
+                ", shipment_id='" + shipment_id +
                 ", vehicle_id=" + vehicle_id +
                 '}';
     }

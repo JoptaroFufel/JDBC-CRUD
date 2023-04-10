@@ -50,11 +50,9 @@ public class Hirer implements Table {
 
     @Override
     public String toString() {
-        return "Hirer{" +
-                "id=" + id +
-                ", fullname='" + fullname + '\'' +
-                ", passport_data='" + passport_data + '\'' +
-                ", contact_data='" + contact_data + '\'' +
-                '}';
+        return "HIRER: " +
+                " " + fullname +
+                " " + passport_data +
+                " " + contact_data;
     }
 }

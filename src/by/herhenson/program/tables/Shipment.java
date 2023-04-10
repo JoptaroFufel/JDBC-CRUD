@@ -3,10 +3,10 @@ package by.herhenson.program.tables;
 import java.util.Date;
 
 public class Shipment implements Table {
-    private String number;
+    private String name;
     private String contract_id;
-    private int departure_point;
-    private int destination_point;
+    private String departure_point;
+    private String destination_point;
     private Date shipping_date;
     private Date arrival_date;
     private String status;
@@ -14,8 +14,8 @@ public class Shipment implements Table {
     public Shipment() {
     }
 
-    public Shipment(String number, String contract_id, int departure_point, int destination_point, Date shipping_date, Date arrival_date, String status) {
-        this.number = number;
+    public Shipment(String name, String contract_id, String departure_point, String destination_point, Date shipping_date, Date arrival_date, String status) {
+        this.name = name;
         this.contract_id = contract_id;
         this.departure_point = departure_point;
         this.destination_point = destination_point;
@@ -24,12 +24,12 @@ public class Shipment implements Table {
         this.status = status;
     }
 
-    public String getNumber() {
-        return number;
+    public String getName() {
+        return name;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getContract_id() {
@@ -40,19 +40,19 @@ public class Shipment implements Table {
         this.contract_id = contract_id;
     }
 
-    public int getDeparture_point() {
+    public String getDeparture_point() {
         return departure_point;
     }
 
-    public void setDeparture_point(int departure_point) {
+    public void setDeparture_point(String departure_point) {
         this.departure_point = departure_point;
     }
 
-    public int getDestination_point() {
+    public String getDestination_point() {
         return destination_point;
     }
 
-    public void setDestination_point(int destination_point) {
+    public void setDestination_point(String destination_point) {
         this.destination_point = destination_point;
     }
 
@@ -82,14 +82,11 @@ public class Shipment implements Table {
 
     @Override
     public String toString() {
-        return "Shipment{" +
-                "number='" + number + '\'' +
-                ", contract_id='" + contract_id + '\'' +
-                ", departure_point=" + departure_point +
-                ", destination_point=" + destination_point +
-                ", shipping_date=" + shipping_date +
-                ", arrival_date=" + arrival_date +
-                ", status='" + status + '\'' +
-                '}';
+        return "SHIPMENT: " + name +
+                "\n    DEPARTURE POINT:   " + departure_point +
+                "\n    DESTINATION POINT: " + destination_point +
+                "\n    SHIPPING DATE:     " + shipping_date +
+                "\n    ARRIVAL DATE:      " + arrival_date +
+                "\n    STATUS:            " + status;
     }
 }

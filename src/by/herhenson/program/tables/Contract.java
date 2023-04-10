@@ -3,7 +3,7 @@ package by.herhenson.program.tables;
 import java.util.Date;
 
 public class Contract implements Table {
-    private String number;
+    private String name;
     private String status;
     private double total;
     private Date date;
@@ -13,8 +13,8 @@ public class Contract implements Table {
     public Contract() {
     }
 
-    public Contract(String number, String status, double total, Date date, int hirer_id, int manager_id) {
-        this.number = number;
+    public Contract(String name, String status, double total, Date date, int hirer_id, int manager_id) {
+        this.name = name;
         this.status = status;
         this.total = total;
         this.date = date;
@@ -22,12 +22,12 @@ public class Contract implements Table {
         this.manager_id = manager_id;
     }
 
-    public String getNumber() {
-        return number;
+    public String getName() {
+        return name;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getStatus() {
@@ -72,13 +72,9 @@ public class Contract implements Table {
 
     @Override
     public String toString() {
-        return "Contract{" +
-                "number='" + number + '\'' +
-                ", status='" + status + '\'' +
-                ", total=" + total +
-                ", date=" + date +
-                ", hirer_id=" + hirer_id +
-                ", manager_id=" + manager_id +
-                '}';
+        return "CONTRACT:" + name +
+                "\n   STATUS: " + status +
+                "\n   TOTAL:  " + total +
+                "\n   DATE:   " + date;
     }
 }

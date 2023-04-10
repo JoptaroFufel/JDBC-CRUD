@@ -1,35 +1,25 @@
 package by.herhenson.program.tables;
 
 public class Vehicle implements Table {
-    private int id;
-    private String license_plate;
+    private String name;
     private String description;
     private String status;
 
     public Vehicle() {
     }
 
-    public Vehicle(int id, String license_plate, String description, String status) {
-        this.id = id;
-        this.license_plate = license_plate;
+    public Vehicle(String name, String description, String status) {
+        this.name = name;
         this.description = description;
         this.status = status;
     }
 
-    public int getId() {
-        return id;
+    public String getName() {
+        return name;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getLicense_plate() {
-        return license_plate;
-    }
-
-    public void setLicense_plate(String license_plate) {
-        this.license_plate = license_plate;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -50,11 +40,8 @@ public class Vehicle implements Table {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "id=" + id +
-                ", license_plate='" + license_plate + '\'' +
-                ", description='" + description + '\'' +
-                ", status='" + status + '\'' +
-                '}';
+        return "    VEHICLE: " + name +
+                "\n        DESCRIPTION: " + description +
+                "\n        STATUS:      " + status;
     }
 }
