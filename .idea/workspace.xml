@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55fae6e5-afe9-4921-a76b-4e8baa1c0358" name="Changes" comment="upload files">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/ContractsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/EmployeesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/logic/ContractsFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/logic/EmployeesFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/herhenson/program/utils/TypeOfMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Good.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Hirer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Hirer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/SVS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/SVS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Shipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Shipper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/tables/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/tables/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/utils/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/controllers/ContractsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/ContractsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/herhenson/program/controllers/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/herhenson/program/controllers/EmployeesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +96,8 @@
       <workItem from="1680848061922" duration="18013000" />
       <workItem from="1680889477090" duration="9839000" />
       <workItem from="1680944323931" duration="7631000" />
-      <workItem from="1681071328819" duration="18263000" />
+      <workItem from="1681071328819" duration="18671000" />
+      <workItem from="1681106429329" duration="1936000" />
     </task>
     <task id="LOCAL-00001" summary="upload files">
       <created>1680807209319</created>
@@ -144,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680814856874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upload files">
+      <created>1681091477151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681091477151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

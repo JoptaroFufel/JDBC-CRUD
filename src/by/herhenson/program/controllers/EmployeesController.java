@@ -30,6 +30,7 @@ public class EmployeesController extends Controller {
                     "\n-----------------------------------------\n"
             );
             int num = scan.nextInt();
+            int i = 1;
             switch (num){
                 case 0:
                     escape = true;
@@ -38,7 +39,8 @@ public class EmployeesController extends Controller {
                     employees = EmployeesFunc.showEmployees(conn);
                     for (Employee e:
                          employees) {
-                        System.out.println(e.toString());
+                        System.out.println(i + ". " + e.toString());
+                        i++;
                     }
                     System.out.print(
                             "\n-----------------------------------------" +
@@ -52,7 +54,8 @@ public class EmployeesController extends Controller {
                     employees = EmployeesFunc.showManagers(conn);
                     for (Employee e:
                             employees) {
-                        System.out.println(e.toString());
+                        System.out.println(i + ". " + e.toString());
+                        i++;
                     }
                     System.out.print(
                             "\n-----------------------------------------" +
@@ -64,9 +67,11 @@ public class EmployeesController extends Controller {
                     break;
                 case 3:
                     employees = EmployeesFunc.showShippers(conn);
+
                     for (Employee e:
                             employees) {
-                        System.out.println(e.toString());
+                        System.out.println(i + ". " + e.toString());
+                        i++;
                     }
                     System.out.print(
                             "\n-----------------------------------------" +

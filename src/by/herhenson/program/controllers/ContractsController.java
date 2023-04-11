@@ -65,7 +65,7 @@ public class ContractsController extends Controller {
                                 int j = 2;
                                 for (Vehicle v:
                                         vehicles) {
-                                    System.out.println("\t" + j + ". - " + v);
+                                    System.out.println("\t" + j + "." + v);
                                     j++;
                                 }
                                 System.out.print(
@@ -91,7 +91,7 @@ public class ContractsController extends Controller {
                                     int k = 1;
                                     for (Employee e:
                                             employees) {
-                                        System.out.println("\t" + k + ". - " + e);
+                                        System.out.println(k + ". " + e);
                                         k++;
                                     }
                                     System.out.print(
@@ -239,7 +239,7 @@ public class ContractsController extends Controller {
                         ArrayList<Hirer> hirers = ContractsFunc.showHirers(conn);
                         for (Hirer h :
                                 hirers) {
-                            System.out.println("\t" + j + ". - " + h);
+                            System.out.println(j + ". " + h);
                             j++;
                         }
                         System.out.print(
@@ -276,7 +276,7 @@ public class ContractsController extends Controller {
                         int k = 1;
                         for (Employee e:
                                 employees) {
-                            System.out.println("\t" + k + ". - " + e);
+                            System.out.println(k + ". " + e);
                             k++;
                         }
                         System.out.print(
